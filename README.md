@@ -5,14 +5,15 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 ## Alunos integrantes da equipe
 
 * Thiago Ferreira Guimarães
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Pedro Gabriel Ferreira Passos
+* Kaio Gomes Esteves Corrêa 
+* Guilherme Sérgio de Freitas Miguel
+* Ramon Schramm Almeida
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Caram
+* Marta
 
 ## Instruções de utilização
 
