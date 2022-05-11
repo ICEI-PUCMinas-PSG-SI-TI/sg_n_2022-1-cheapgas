@@ -1,22 +1,3 @@
-<?php
-
-header("Content-type: text/html; charset=utf8;");
-
-// IMPORTAR A CLASSE USUARIO
-require_once "CLASSES/Usuarios.php";
-
-//CRIAR INSTANCIA DA CLASSE USUARIOS
-$Usuarios = new Usuarios();
-
-// TESTAR SE CLICOU NO BOTÃO LOGAR
-if(isset($_POST["Logar"])){
-    // CHAMAR FUNÇÃO DE LOGIN
-    $Usuarios->login();
-}
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -24,14 +5,12 @@ if(isset($_POST["Logar"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="javinha/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-    <link rel="stylesheet" type="text/css" href="javinha/animate/animate.css">
-    <link rel="stylesheet" type="text/css" href="javinha/css-hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" type="text/css" href="javinha/animsition/css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="javinha/select2/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="javinha/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="css/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/mainn.css">
 
@@ -69,7 +48,7 @@ if(isset($_POST["Logar"])){
 
                     <div class="container-login100-form-btn">
                         <button class="login100-form-btn" name="Logar"> Login </button>
-                        <a href="registrar.php" class="login100-form-btn">Registre-se</a>
+                        <a href="registrar.html" class="login100-form-btn">Registre-se</a>
                     </div>
 
                 </form>
@@ -79,14 +58,14 @@ if(isset($_POST["Logar"])){
 </div>
 
 
-<script src="javinha/jquery/jquery-3.2.1.min.js"></script>
-<script src="javinha/animsition/js/animsition.min.js"></script>
-<script src="javinha/bootstrap/js/popper.js"></script>
-<script src="javinha/bootstrap/js/bootstrap.min.js"></script>
-<script src="javinha/select2/select2.min.js"></script>
-<script src="javinha/daterangepicker/moment.min.js"></script>
-<script src="javinha/daterangepicker/daterangepicker.js"></script>
-<script src="javinha/countdowntime/countdowntime.js"></script>
+<script src="css/jquery/jquery-3.2.1.min.js"></script>
+<script src="css/animsition/js/animsition.min.js"></script>
+<script src="css/bootstrap/js/popper.js"></script>
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+<script src="css/select2/select2.min.js"></script>
+<script src="css/daterangepicker/moment.min.js"></script>
+<script src="cssa/daterangepicker/daterangepicker.js"></script>
+<script src="cssjavinha/countdowntime/countdowntime.js"></script>
 <script src="JS/main.js"></script>
 
 </body>
