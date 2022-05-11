@@ -3,7 +3,7 @@
 
 
 LINK HOSPEDADO --> http://estudos.onlar.com.br/
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+
 
 ## Alunos integrantes da equipe
 
