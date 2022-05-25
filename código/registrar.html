@@ -67,10 +67,11 @@
                         <input class="input100" type="password"  id="senha" name="senha" placeholder="******" required>
                         <span class="focus-input100"></span>
                     </div>
-
+			
+		    <!-- CEP -->
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Informe o seu Endereço">
                         <span class="label-input100">CEP</span>
-                        <input class="input100" type="text" onkeypress="mascara(this, '#####-###')"  id="cep" name="cep" oninput="" placeholder="CEP" required>
+                        <input class="input100" type="text" onkeypress="mascara(this, '#####-###')" minlength="8" maxlength="9" id="cep" name="cep" oninput="" placeholder="CEP" required>
                         <span class="focus-input100"></span>
                     </div>
                     <!-- Endereço --> 
