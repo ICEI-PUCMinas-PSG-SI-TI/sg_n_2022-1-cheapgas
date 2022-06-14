@@ -1,4 +1,4 @@
-# Nome do projeto
+# CheapGas
 Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 ## Alunos integrantes da equipe
