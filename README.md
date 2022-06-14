@@ -1,5 +1,5 @@
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 ## Alunos integrantes da equipe
 
