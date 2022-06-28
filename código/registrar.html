@@ -26,10 +26,10 @@
 					</span>
             </div>
                     <!-- Nome -->
-                <form action="logar.html" method="post" class="login100-formm validate-form" >
+                <form class="login100-formm validate-form" role="form" method="get"  onsubmit="cadastro(this)">
                     <div class="wrap-input100 validate-input m-b-26"  data-validate="Informe o seu nome">
                         <span class="label-input100">Nome</span>
-                        <input class="input100" type="text"  id="nome" name="nome" placeholder="Maria">
+                        <input class="input100" type="text" id="nome" name="nome" placeholder="Nome">
                         <span class="focus-input100"></span>
                     </div>
 
@@ -68,6 +68,12 @@
                         <span class="focus-input100"></span>
                     </div>
 
+                    <div class="wrap-input100 validate-input m-b-18" data-validate="Você precisa criar uma senha">
+                        <span class="label-input100">Confirmar Senha</span>
+                        <input class="input100" type="password" id="confirmar" name="confirmar" placeholder="******" required>
+                        <span class="focus-input100"></span>
+                    </div>
+
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Informe o seu Endereço">
                         <span class="label-input100">CEP</span>
                         <input class="input100" type="text" onkeypress="mascara(this, '#####-###')"  id="cep" name="cep" oninput="" placeholder="CEP" required>
@@ -95,9 +101,8 @@
                     
                     <div class="container-login100-form-btn text-center">
                         <a href="index.html" class="login100-form-btn">Voltar</a>
-                        <button class="login100-form-btn" href="login.html" id="Salvar" name="Salvar"> Salvar </button> 
+                        <button class="login100-form-btn" id="Salvar" name="Salvar" type="submit"> Salvar </button> 
                     </div>
-
                 </form>
 
         </div>
@@ -174,11 +179,28 @@ $(document).ready(function(){
             }
         }
     }
-
-
 });
-   
-
+    function cadastro(event) {
+        var usuario = {
+        nome: document.getElementById("nome").value,
+        sexo: document.getElementById("sexo").value,
+        email:  document.getElementById("email").value,
+        telefone: document.getElementById("telefone").value,
+        senha: document.getElementById("senha").value,
+        confirmar: document.getElementById("confirmar").value,
+        cep: document.getElementById("cep").value,
+        endereco: document.getElementById("endereco").value,
+        cidade: document.getElementById("cidade").value,
+        bairro: document.getElementById("bairro").value,
+        }
+        if(usuario.senha == usuario.confirmar){
+            localStorage.setItem('usuario', JSON.stringify(usuario));
+            window.location.href = "login.html";
+        }
+        else{
+            alert("Suas senhas não se confirmam.\nRealize o cadastro novamente.");
+        }
+	}
 </script>    
 
 </html>

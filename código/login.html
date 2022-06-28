@@ -26,30 +26,20 @@
 					</span>
             </div>
 
-                <form action="login.html" method="post" class="login100-form validate-form">
-                    <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                <form class="login100-form validate-form">
+                    <div class="wrap-input100 validate-input m-b-26">
                         <span class="label-input100">E-mail</span>
                         <input class="input100" type="email"  id="email" name="email" placeholder="email@email.com">
                         <span class="focus-input100"></span>
                     </div>
 
-                    <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+                    <div class="wrap-input100 validate-input m-b-18">
                         <span class="label-input100">Senha</span>
-                        <input class="input100" type="password"  id="senha" name="senha" placeholder="*******">
+                        <input class="input100" type="password" id="senha" name="senha" placeholder="*******">
                         <span class="focus-input100"></span>
                     </div>
-
-                    <div class="flex-sb-m w-full p-b-30">
-                        <div class="contact100-form-checkbox">
-                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-
-                        </div>
-                    </div>
-
                     <div class="container-login100-form-btn">
-                    <a href="home.html" class="login100-form-btn">Logar</a>
-
-                        
+                        <button onclick="login()" class="login100-form-btn">Logar</button>
                         <a href="registrar.html" class="login100-form-btn">Registre-se</a>
                     </div>
 
@@ -73,7 +63,6 @@
 </body>
 
 <script>
-
     function mascara_telefone() {
         var tel_formatado = document.getElementById("telefone").value
         if(tel_formatado[0]!="(")
@@ -99,10 +88,19 @@
         }
     }
 
+    function login() {
+		var usuario = JSON.parse(localStorage.getItem("usuario"));
+        console.log(usuario);
+			var email = document.getElementById("email").value;
+			var senha = document.getElementById("senha").value;
+			if (usario.email == email && usuario.senha == senha) {
+				window.location.href = "home.html";
+			}
+			else {
+				alert("Usuário ou senha inválida.\nDigite novamente.")
+			}
+			return false;
+		}
+
 </script>    
-
-
-
-
-
 </html>
