@@ -124,8 +124,8 @@
     <ul class="main-mnu-list">
         <li><a href="about-us.html" data-title="Ajuda"><span>Ajuda</span></a></li>
         <li><a href="services.html" data-title="Serviços"><span>Serviços</span></a></li>
-        
         <li><a href="contact-us.html" data-title="Contatos"><span>Contatos</span></a></li> 
+        <li><h6 id="nome"></h6></li>
        
 
 
@@ -277,6 +277,11 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+            <script>
+                window.onload = function () {
+                    var usuario = JSON.parse(localStorage.getItem("usuario"));
+                    document.getElementById('nome').innerHTML = "Bem vindo "+usuario.nome;
+                }
+            </script>
 	</body>
 </html>
