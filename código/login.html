@@ -58,7 +58,7 @@
                         <span class="focus-input100"></span>
                     </div>
                     <div class="container-login100-form-btn">
-                        <button onclick="login()" class="login100-form-btn">Logar</button>
+                        <button onclick="login()" type="submit" class="login100-form-btn">Logar</button>
                         <a href="registrar.html" class="login100-form-btn">Registre-se</a>
                     </div>
 
@@ -112,8 +112,9 @@
         console.log(usuario);
 			var email = document.getElementById("email").value;
 			var senha = document.getElementById("senha").value;
-			if (usario.email == email && usuario.senha == senha) {
+			if (usuario.email == email && usuario.senha == senha) {
 				window.location.href = "home.html";
+                alert("Usuário Logado.")
 			}
 			else {
 				alert("Usuário ou senha inválida.\nDigite novamente.")

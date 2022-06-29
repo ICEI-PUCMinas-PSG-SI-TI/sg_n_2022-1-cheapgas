@@ -212,6 +212,7 @@ $(document).ready(function(){
         if(usuario.senha == usuario.confirmar){
             localStorage.setItem('usuario', JSON.stringify(usuario));
             window.location.href = "login.html";
+            alert("Usuário Cadastrado.")
         }
         else{
             alert("Suas senhas não se confirmam.\nRealize o cadastro novamente.");
