@@ -42,7 +42,7 @@
                       </div>
                       </div>
                     <!-- Nome -->
-                <form class="login100-formm validate-form" role="form" method="get"  onsubmit="cadastro(this)">
+                <form class="login100-formm validate-form" role="form">
                     <div class="wrap-input100 validate-input m-b-26"  data-validate="Informe o seu nome">
                         <span class="label-input100">Nome</span>
                         <input class="input100" type="text" id="nome" name="nome" placeholder="Nome">
@@ -80,13 +80,13 @@
 
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Você precisa criar uma senha">
                         <span class="label-input100">Senha</span>
-                        <input class="input100" type="password"  id="senha" name="senha" placeholder="******" required>
+                        <input class="input100" type="password"  id="senha" name="senha" placeholder="**" required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input m-b-18" data-validate="Você precisa criar uma senha">
                         <span class="label-input100">Confirmar Senha</span>
-                        <input class="input100" type="password" id="confirmar" name="confirmar" placeholder="******" required>
+                        <input class="input100" type="password" id="confirmar" name="confirmar" placeholder="**" required>
                         <span class="focus-input100"></span>
                     </div>
 
@@ -117,7 +117,7 @@
                     
                     <div class="container-login100-form-btn text-center">
                         <a href="index.html" class="login100-form-btn">Voltar</a>
-                        <button class="login100-form-btn" id="Salvar" name="Salvar" type="submit"> Salvar </button> 
+                        <button class="login100-form-btn" id="Salvar" name="Salvar" type="button" onclick="cadastro()"> Salvar </button> 
                     </div>
                 </form>
 
@@ -196,7 +196,7 @@ $(document).ready(function(){
         }
     }
 });
-    function cadastro(event) {
+    function cadastro() {
         var usuario = {
         nome: document.getElementById("nome").value,
         sexo: document.getElementById("sexo").value,
