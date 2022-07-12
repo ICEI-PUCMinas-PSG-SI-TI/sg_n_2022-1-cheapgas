@@ -9,8 +9,8 @@ Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 * Thiago - responsável pelo cadastro, login e montagem das apresentações.
 * Kaio - responsável pelo funcionamento dos mapas e API.
 * Pedro Passos - responsável pelo design do site.
-* Guilherme - responsável pela criação das telas e suas ideias.
-* Ramon - responsável pela oratória nas apresentações e revisor.
+* Ramon - responsável pela criação das telas e suas ideias.
+* Guilherme - responsável pela oratória nas apresentações e revisor.
 
 ## Professores responsáveis
 
