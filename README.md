@@ -6,7 +6,7 @@ Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 ## Alunos integrantes da equipe
 
-* Thiago - responsável pelo cadastro e login.
+* Thiago - responsável pelo cadastro, login e montagem das apresentações.
 * Kayo - responsável pelo funcionamento dos mapas e API.
 * Pedro Passos - responsável pelo design do site.
 * Guilherme - responsável pela criação das telas e suas ideias.
