@@ -19,8 +19,13 @@ Descrição: Criação de plataforma web que tem como ideia principal direcionar
 ## Informações necessárias
 
 > Tela inicial para uso do sistema: **home.html**
+
 > Tela registro: **registrar.html**
+
 > Tela login: **login.html**
+
 > Tela após login: **home.html**
+
 > Tela dos postos: **Postos.html**
+
 > Link do vídeo: 
