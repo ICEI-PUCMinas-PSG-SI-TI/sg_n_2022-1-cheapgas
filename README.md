@@ -5,7 +5,7 @@ Descrição: Criação de plataforma web que tem como ideia principal direcionar
 
 ## Alunos integrantes da equipe
 
-* Thiago - responsável pelo cadastro.
+* Thiago - responsável pelo cadastro e login.
 * Kayo - responsável pelo funcionamento dos mapas e API.
 * Pedro Passos - responsável pelo design do site.
 * Guilherme - responsável pela criação das telas e suas ideias.
