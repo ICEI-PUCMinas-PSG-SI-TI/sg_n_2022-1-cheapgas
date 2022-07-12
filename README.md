@@ -2,7 +2,7 @@
 Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 **Descrição**: Criação de plataforma web que tem como ideia principal direcionar seus usuários ao posto mais próximo e com menor preço, fazendo cadastro de usuários e a partir dos dados fornecidos forcener tais serviços.
-* Usos: HTML, CSS, JS, ViaCel, LocalStorage.
+* Usos: HTML, CSS, JS, ViaCep, LocalStorage.
 
 ## Alunos integrantes da equipe
 
