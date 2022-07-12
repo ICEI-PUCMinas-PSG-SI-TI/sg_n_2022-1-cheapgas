@@ -19,7 +19,7 @@ Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 ## Informações necessárias
 
-> Tela inicial para uso do sistema: **home.html**
+> Tela inicial para uso do sistema: **index.html**
 
 > Tela registro: **registrar.html**
 
