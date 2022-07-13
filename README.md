@@ -29,4 +29,4 @@ Link do Trello: https://trello.com/b/nWHhx99F/cheaps-gass.
 
 > Tela dos postos: **Postos.html**
 
-> Link do vídeo: 
+> Link do vídeo: https://youtu.be/fyJSszvIFoc
