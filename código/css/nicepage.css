@@ -3,7 +3,9 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
+body {
+  background-color: #0676a4;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;
